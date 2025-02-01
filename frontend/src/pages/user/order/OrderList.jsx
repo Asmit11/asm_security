@@ -268,7 +268,11 @@ const OrderList = () => {
                         <ItemsList>
                             {order.carts.map((item) => (
                                 <Item key={item._id}>
+<<<<<<< HEAD
                                     <ProductImage src={`https://localhost:5500/products/${item.productID.productImage}`} alt={item.productID.productName} />
+=======
+                                    <ProductImage src={`http://localhost:5500/products/${item.productID.productImage}`} alt={item.productID.productName} />
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                                     <div>
                                         <p>
                                             <strong>{item.productID.productName}</strong>

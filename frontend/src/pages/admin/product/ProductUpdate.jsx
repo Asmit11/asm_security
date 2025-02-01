@@ -123,7 +123,11 @@
 //                     </form>
 //                     <div className='image section'>
 //                         <h6>Previewing old images</h6>
+<<<<<<< HEAD
 //                         <img height={'150px'} width={'250px'} className='image-fluid rounded-4 object-fit-cover' src={`https://localhost:5500/products/${oldImage}`} alt=''></img>
+=======
+//                         <img height={'150px'} width={'250px'} className='image-fluid rounded-4 object-fit-cover' src={`http://localhost:5500/products/${oldImage}`} alt=''></img>
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
 //                         {
 //                             previewNewImage && <>
 //                                 <h6>New Image</h6>
@@ -262,7 +266,11 @@ const UpdateProduct = () => {
 
                 <div className='image-section'>
                     <h6>Previewing old images</h6>
+<<<<<<< HEAD
                     <img height={'150px'} width={'250px'} className='image-fluid rounded-4 object-fit-cover' src={`https://localhost:5500/products/${oldImage}`} alt='Old Product' />
+=======
+                    <img height={'150px'} width={'250px'} className='image-fluid rounded-4 object-fit-cover' src={`http://localhost:5500/products/${oldImage}`} alt='Old Product' />
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                     {previewNewImage && (
                         <>
                             <h6>New Image</h6>

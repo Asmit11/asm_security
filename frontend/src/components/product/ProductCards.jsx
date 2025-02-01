@@ -69,7 +69,11 @@ const ProductCards = ({ productInformation }) => {
       </span>
       <img
         // height={"200px"}
+<<<<<<< HEAD
         src={`https://localhost:5500/products/${productInformation.productImage}`}
+=======
+        src={`http://localhost:5500/products/${productInformation.productImage}`}
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
         className='card-img-top h-50 w-100 object-fit-cover'
         alt={productInformation.productName}
       />

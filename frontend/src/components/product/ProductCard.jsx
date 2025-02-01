@@ -76,7 +76,11 @@ const ProductCard = ({ productInformation }) => {
             >
               <img
                 className='w-100 h-100 object-fit-cover rounded'
+<<<<<<< HEAD
                 src={`https://localhost:5500/products/${productInformation.productImage}`}
+=======
+                src={`http://localhost:5500/products/${productInformation.productImage}`}
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                 alt={productInformation.productName}
               />
             </a>

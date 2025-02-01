@@ -11,7 +11,11 @@ const Api = axios.create({
 });
 
 const Api2 = axios.create({
+<<<<<<< HEAD
   baseURL: "https://localhost:5500",
+=======
+  baseURL: "http://localhost:5500",
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
   withCredentials: true,
   headers: {
     // Authorization: `Bearer ${token}`,

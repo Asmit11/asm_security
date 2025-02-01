@@ -190,7 +190,11 @@
 //                             <img
 //                               width={"40px"}
 //                               height={"40px"}
+<<<<<<< HEAD
 //                               src={`https://localhost:5500/category/${singleCategory.categoryImage}`}
+=======
+//                               src={`http://localhost:5500/category/${singleCategory.categoryImage}`}
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
 //                               alt=''
 //                             />
 //                           </td>
@@ -407,7 +411,11 @@ const Category = () => {
                       category.map((singleCategory) => (
                         <tr key={singleCategory._id}>
                           <td>
+<<<<<<< HEAD
                             <img width={"40px"} height={"40px"} src={`https://localhost:5500/category/${singleCategory.categoryImage}`} alt='' />
+=======
+                            <img width={"40px"} height={"40px"} src={`http://localhost:5500/category/${singleCategory.categoryImage}`} alt='' />
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                           </td>
                           <td>{singleCategory.categoryName}</td>
                           <td>{singleCategory.categoryDescription}</td>

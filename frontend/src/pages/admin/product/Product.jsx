@@ -223,7 +223,11 @@ const Product = () => {
                         <img
                           width={"40px"}
                           height={"40px"}
+<<<<<<< HEAD
                           src={`https://localhost:5500/products/${singleProduct.productImage}`}
+=======
+                          src={`http://localhost:5500/products/${singleProduct.productImage}`}
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                           alt=''
                         />
                       </td>

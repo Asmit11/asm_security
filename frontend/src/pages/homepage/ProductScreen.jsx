@@ -307,7 +307,11 @@ const Product = () => {
                   {products.map((singleProduct) => (
                     <tr key={singleProduct._id}>
                       <td>
+<<<<<<< HEAD
                         <img width={"40px"} height={"40px"} src={`https://localhost:5500/products/${singleProduct.productImage}`} alt='' />
+=======
+                        <img width={"40px"} height={"40px"} src={`http://localhost:5500/products/${singleProduct.productImage}`} alt='' />
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                       </td>
                       <td>{singleProduct.productName}</td>
                       <td>{singleProduct.productPrice}</td>

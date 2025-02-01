@@ -148,7 +148,11 @@ const Cart = () => {
   //         publicKey: "test_public_key_0800545e039d45368cab4d1b2fb93d01",
   //         productIdentity: "1234567890",
   //         productName: "Cart Items",
+<<<<<<< HEAD
   //         productUrl: "https://example.com/cart",
+=======
+  //         productUrl: "http://example.com/cart",
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
   //         eventHandler: {
   //             onSuccess(payload) {
   //                 console.log("Khalti success payload:", payload);
@@ -175,7 +179,11 @@ const Cart = () => {
       publicKey: "test_public_key_0800545e039d45368cab4d1b2fb93d01",
       productIdentity: "1234567890",
       productName: "Cart Items",
+<<<<<<< HEAD
       productUrl: "https://example.com/cart",
+=======
+      productUrl: "http://example.com/cart",
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
       eventHandler: {
         onSuccess(payload) {
           console.log("Khalti success payload:", payload);
@@ -263,7 +271,11 @@ const Cart = () => {
                         <img
                           src={
                             cart.productID
+<<<<<<< HEAD
                               ? `https://localhost:5500/products/${cart.productID.productImage}`
+=======
+                              ? `http://localhost:5500/products/${cart.productID.productImage}`
+>>>>>>> 046908fad1eda7d7f4264b052abe84a730fa8bbd
                               : "/placeholder.png"
                           }
                           alt={
